@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BA55D3;
+}
+
+li {
+    float: left;
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+} 
+
+.active {
+    background-color: #ff3333;
+} 
+
